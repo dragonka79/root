@@ -1,13 +1,8 @@
-for i in range (1, 101):
-    A = i % 3 == 0
-    B = i % 5 == 0
+s = -9 //4
+print(s)
 
-    if A and B:
-        print("fizzbuzz")
-    elif A:
-        print("fizz")
-    elif B:
-        print("buzz")
-    else:
-        print(i)
+#  Szabályos egész érték számítás
 
+l = -9 /4
+r = round(l)
+print(r)
