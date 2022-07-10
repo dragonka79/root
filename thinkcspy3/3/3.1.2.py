@@ -1,7 +1,7 @@
 import turtle
 
 color = str(input("Give me the color of the background of the window > "))
-pensize = int(input("Give me the pensize of the turtle > "))
+pensize = str(input("Give me the pensize of the turtle > "))
 
 ablak = turtle.Screen()
 ablak.bgcolor(color) # Állítsd be az ablak háttérszínét!
