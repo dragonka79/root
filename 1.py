@@ -1,16 +1,18 @@
 import turtle
 
-color = str(input("Add meg a háttérszínt > "))
-
 ablak = turtle.Screen()
-ablak.bgcolor(color) # Állítsd be az ablak háttérszínét!
-ablak.title("Hello, Eszti!") # Állítsd be az ablak címét!
+ablak.bgcolor("lightgreen")
 
 Eszti = turtle.Turtle()
-Eszti.color("blue") # Mond meg Esztinek, hogy változtasson színt!
-Eszti.pensize(3) # Mond meg Esztinek, hogy változtassa meg a tolla vastagságát!
-Eszti.forward(50)
-Eszti.left(120)
-Eszti.forward(50)
+Eszti.shape("turtle")
+Eszti.color("blue")
+Eszti.speed(2)
+Eszti.penup() # Ez új
+meret = 20
+for i in range(30):
+    Eszti.stamp()
+    meret = meret + 3 # Növeld a méretet minden ismétlésnél!
+    Eszti.forward(meret) # Mozgasd ...
+    Eszti.right(24) # ... és fordítsd Esztit!
 
 ablak.mainloop()
