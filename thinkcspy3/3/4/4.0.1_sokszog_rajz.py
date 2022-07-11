@@ -11,8 +11,9 @@ def sokszög_rajzolasa(t, h, s):
         t.left(360/s)
 
 s = 3
+h = 50
 Zoli = turtle.Turtle()
 Zoli.hideturtle()
-sokszög_rajzolasa(Zoli, 50, s)
+sokszög_rajzolasa(Zoli, h, s)
 
 a.mainloop()
