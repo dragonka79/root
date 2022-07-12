@@ -1,10 +1,32 @@
-def kamatos_kamat(c, r, m ,t):
-    """Kamatos kamat számítás c alapra"""
+import turtle
 
-    fv = c * ((1 + r / m) ** (m * t))
-    return fv
+a = turtle.Screen()
+a.bgcolor("lightgreen")
+a.title("Gyönyörű minta")
 
-alap = float(input(' > '))
-vegosszeg = round(kamatos_kamat(alap, 8/100, 12, 5), 3)
-print(vegosszeg)
+t = turtle.Turtle()
+t.color("blue")
+t.pensize(3)
+t.speed(0)
+t.hideturtle()
 
+def minta(sz):
+    for i in range(2):
+        for i in range(4):
+            t.forward(sz)
+            t.left(90)
+        t.right(90)
+    for i in range(4):
+        t.forward(sz)
+        t.right(90)
+    for i in range(4):
+        t.forward(sz)
+        t.left(90)
+    t.right(165)
+
+sz = 150
+
+for i in range(6):
+    minta(sz)
+
+a.mainloop()
