@@ -10,11 +10,12 @@ t.pensize(3)
 t.speed(0)
 # t.hideturtle()
 
+angle = 90
 def minta(sz):
     for i in range(1, 96):
-        t.right(90)
+        t.right(angle)
         t.forward(i * sz)
-    t.right(90)
+    t.right(angle)
 
 sz = 4
 minta(sz)
