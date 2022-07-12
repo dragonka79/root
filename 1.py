@@ -1,23 +1,10 @@
-import turtle
+def kamatos_kamat(c, r, m ,t):
+    """Kamatos kamat számítás c alapra"""
 
-def tobbszinu_negyzet_rajzolas(t, h):
-    """"Egy h oldalhosszúságú, többszínű négyzet rajzoltatása a t teknőccel"""
-    for i in ["red", "purple", "hotpink", "blue"]:
-        t.color(i)
-        t.forward(h)
-        t.left(90)
-# Egy ablak létrehozása és a tulajdonságainak beállítása
-a = turtle.Screen()
-a.bgcolor("lightgreen")
-# Eszti létrehozása és tulajdonságainak beállítása
-Eszti = turtle.Turtle()
-Eszti.pensize(3)
-meret = 20 # A legkisebb négyzet mérete
+    fv = c * ((1 + r / m) ** (m * t))
+    return fv
 
-for i in range(15):
-    tobbszinu_negyzet_rajzolas(Eszti, meret)
-    meret = meret + 10 # Növeljük a következő négyzet méretét
-    Eszti.forward(10) # Kicsit arrébb léptetjük a teknőcöt
-    Eszti.right(18) # és kicsit elfordítjuk
+alap = float(input(' > '))
+vegosszeg = round(kamatos_kamat(alap, 8/100, 12, 5), 3)
+print(vegosszeg)
 
-a.mainloop()
