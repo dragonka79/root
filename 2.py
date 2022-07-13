@@ -1,29 +1,25 @@
-import turtle
+def derekszogu_e(a, b, c):
+    E = 0.000001
 
-def ablak_keszites(szin, ablaknev):
-    """
-    Egy ablak elkészítése, és a háttérszín, valamint az ablaknév beállítása.
-    Visszatérési érték: az új ablak.
-    """
-    a = turtle.Screen()
-    a.bgcolor(szin)
-    a.title(ablaknev)
-    return a
+    """Meghatároza, hogy a háromszög derékszögű-e"""
 
-def teknoc_keszites(szin, tm):
-    """
-    Létrehoz egy teknőcöt, és beállítja az általa használt toll
-    színét és méretét.
-    Visszatérési érték: az új teknőc.
-    """
-    t = turtle.Turtle()
-    t.color(szin)
-    t.pensize(tm)
-    return t
+    # Háromszög létezés feltétele
+    if ((a > 0 and b > 0 and c > 0)) and \
+        ((a + b - c > E) and (a + c - b > E) and (b + c - a > E)):
+    # A derékszögű feltétel
+        if abs(a ** 2 + b ** 2 - c ** 2) < E or \
+           abs(a ** 2 + c ** 2 - b ** 2) < E or \
+           abs(b ** 2 + c ** 2 - a ** 2) < E:
+           return True
+        else:
+            return False
+    else:
+        v = "A három adat nem háromszöget határoz meg"
+        return v
+        
 
-a = ablak_keszites("lightgreen", "Eszti és Sanyi táncol")
-Eszti = teknoc_keszites("hotpink", 5)
-Sanyi = teknoc_keszites("black", 1)
-David = teknoc_keszites("yellow", 2)
+(a, b, c) = (5, 12, 12.9999999)
 
-a.mainloop()
+print(derekszogu_e(a, b ,c))
+
+
