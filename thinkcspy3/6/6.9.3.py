@@ -24,5 +24,6 @@ def tesztkeszlet():
     teszt(nap_sorszam("hétfő") == 0)
     teszt(nap_sorszam(nap_nev(3)) == 3)
     teszt(nap_nev(nap_sorszam("csütörtök")) == "csütörtök")
+    teszt(nap_sorszam("Halloween") == None)
 
 tesztkeszlet()
