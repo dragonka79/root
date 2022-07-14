@@ -27,4 +27,3 @@ def tesztkeszlet():
 
 tesztkeszlet()
 
-# 6.9.2
