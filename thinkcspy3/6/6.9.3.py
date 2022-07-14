@@ -1,8 +1,7 @@
 from unittest import teszt
 
-
+napok = ['hétfő','kedd', 'szerda', 'csütörtök', 'péntek', 'szombat', 'vasárnap']
 def nap_nev(x):
-    napok = ['hétfő','kedd', 'szerda', 'csütörtök', 'péntek', 'szombat', 'vasárnap']
     if x in range(0, 7):
         return napok[x]
     else:
@@ -10,7 +9,6 @@ def nap_nev(x):
 
 
 def nap_sorszam(nap):
-    napok = ['hétfő','kedd', 'szerda', 'csütörtök', 'péntek', 'szombat', 'vasárnap']
     if nap in napok:
         return napok.index(nap)
     else:
