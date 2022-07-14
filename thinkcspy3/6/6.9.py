@@ -26,3 +26,5 @@ def tesztkeszlet():
     teszt(fordulj_orajarasi_iranyba("ostobaság") == None)
 
 tesztkeszlet()
+
+# 6.9.2
