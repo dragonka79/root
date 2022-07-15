@@ -1,4 +1,3 @@
-from cmath import sqrt
 from unittest import teszt
 from math import sqrt
 from math import pow
