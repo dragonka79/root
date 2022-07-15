@@ -22,4 +22,22 @@ def tesztkeszlet_tenyezo_e():
     teszt(not tenyezo_e(25, 15))
     teszt(tenyezo_e(0, 15) == "Zero division")
 
+
+def tobbszorose_e(n, t):
+    return tenyezo_e(t, n)
+
+
+def tesztkeszlet_tobbszorose_e():
+    """ Az ehhez a modulhoz tartozó tesztkészlet. """
+    teszt(tobbszorose_e(12, 3))
+    teszt(tobbszorose_e(12, 4))
+    teszt(not tobbszorose_e(12, 5))
+    teszt(tobbszorose_e(12, 6))
+    teszt(tobbszorose_e(15, 1))
+    teszt(tobbszorose_e(12, 0) == "Zero division")
+    teszt(tobbszorose_e(0, 15))
+
+
 tesztkeszlet_tenyezo_e()
+tesztkeszlet_tobbszorose_e()
+
