@@ -3,6 +3,7 @@ xs = [12, 16, 17, 24, 29, 30]
 def paros_szamok_kivalogat(xs):
     """
     Kiválogatja a páros számokat egy listából és egy másik listában tárolja
+    azokat.
     """
     paros = []
     for i in xs:
