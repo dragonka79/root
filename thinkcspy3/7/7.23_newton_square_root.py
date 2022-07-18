@@ -1,7 +1,7 @@
 from math import pow
 
 def gyok(N):
-    """Newton's method to find the square root of a postitive number N"""
+    """Newton's method to find the square root of a positive number N"""
     c = 0   # Counter for the steps
     kozelites = N/2.0
     while True:
