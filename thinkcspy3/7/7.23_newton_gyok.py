@@ -1,16 +1,17 @@
 from math import pow
 
-def gyok(n):
+def gyok(N):
+    """Newton's method to find the square root of a postitive number N"""
     c = 0   # Counter for the steps
-    kozelites = n/2.0
+    kozelites = N/2.0
     while True:
         c += 1
-        jobb = (kozelites + n/kozelites)/2.0
+        jobb = (kozelites + N/kozelites)/2.0
         if abs(kozelites - jobb) < pow(10, -6):
             return (jobb, c)
         else:
             kozelites = jobb
-            print(jobb)
+            # print(jobb)
 
 # Teszt esetek
 print(gyok(25.0))
