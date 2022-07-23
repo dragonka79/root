@@ -18,7 +18,9 @@ while folytat != 'n':
         if u in [1, 0, -1]:
             v = random.randrange(-1, 2) # gép tipp
             if v != u:
-                if (u == 1 and v == -1) or (u == 0 and v == 1) or (u == -1 and u == -0):
+                if (u == 1 and v == -1) or \
+                    (u == 0 and v == 1) or \
+                   (u == -1 and u == -0):
                     user += 1
                     print("Én nyertem.")
                 else:
@@ -33,8 +35,11 @@ while folytat != 'n':
                     én nyertem:{user} alkalommal.
                     döntetlen: {egal} alkalommal.""")
 
-            folytat = input("Akarsz még játszani? (y/n)")
+            folytat = input("Akarsz még játszani?(any key for 'yes'/ 'n' for no)")
             print('\n\n')
+        else:
+            print("Üss 1/0/-1-et")
+            continue
     except:
         print("Üss 1/0/-1-et")
         continue
