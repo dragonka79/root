@@ -1,12 +1,4 @@
-s = "Informatika"
-k = "k"
+ss = "Érdekes metódusai vannak a Python sztringeknek."
 
-def kereses(szoveg, k):
-    for i in szoveg:
-        print(i)
-        if i == k:
-            print(i)
-        else:
-            continue
-
-print(kereses(s, k))
+szavak = ss.split()
+print(szavak)
