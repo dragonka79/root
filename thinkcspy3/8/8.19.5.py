@@ -22,6 +22,9 @@ Kataton bálvány, légy fekete,
 Hiszen elkártyáztam a szívem!
 """
 
+szoveg = hajnal_enek
+karakter = "ű"
+
 def irasjel_eltavolitas(szoveg):
     irasjel_nelkuli = ""
     for karakter in szoveg:
@@ -29,19 +32,29 @@ def irasjel_eltavolitas(szoveg):
             irasjel_nelkuli += karakter
     return irasjel_nelkuli
 
-szavakra_bontas = irasjel_eltavolitas(hajnal_enek).split()
+szavakra_bontas = irasjel_eltavolitas(szoveg).split()
 #print(szavakra_bontas)
 
 def karakter_szamlalas(string, karakter):
     szamlalo = 0
+    szavak_lista = []
     for ch in string:
-        for letter in ch:
-            x = ch.find(karakter)
-            if x != -1:
-                szamlalo += 1
-    return(szamlalo)
+        x = ch.lower().find(karakter)
+        if x != -1:
+            szavak_lista.append(ch)
+            szamlalo += 1
+    # print(szavak_lista)
+    return szamlalo, szavak_lista # Két értékkel tér vissza a függvény
 
-print(karakter_szamlalas(szavakra_bontas, "t"))
+# szamlalo, szavak_lista = karakter_szamlalas(szoveg, karakter)
+# print(szamlalo)
+# print(szavak_lista)
 
-A {0} szövegben {1} szó áll, melyből {2} {3}% tartalmaz {4} betűt.format(
-szoveg, len(szavakra_bontas), )
+
+szam = karakter_szamlalas(szavakra_bontas, karakter)[0]
+szo = karakter_szamlalas(szavakra_bontas, karakter)[1]
+szazalek = (len(szo) / len(szavakra_bontas)) * 100
+
+print("A szövegben {0} szó áll, melyből {1} szó {2:.2f}%-ban tartalmaz {3} betűt."
+.format(len(szavakra_bontas), len(szo), szazalek, karakter))
+print(f"A szavak listája a következő: {szo}")
