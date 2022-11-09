@@ -1,5 +1,6 @@
 # 14.3.4. A 13.3.3 tovább lépve, az Alice könyvől olvasom be a szavakat,
-# megtisztítom és megmondom, hogy hány szó szerepel benne
+# megtisztítom és megmondom, hogy hány szó szerepel benne.
+# Teljes/lineáris keresés
 
 # import sys
 # sys.path.insert(0, 'C:/Users/a44793837/OneDrive - Deutsche Telekom AG/python/14/')
