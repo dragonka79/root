@@ -5,6 +5,7 @@
 # sys.path.insert(0, 'C:/Users/a44793837/OneDrive - Deutsche Telekom AG/python/14/')
 
 import time
+
 def szovegbol_szavak(szoveg):
     """ Visszaadja a szavak listáját, eltávolítva az összes írásjelt és minden szót kisbetűssé alakít. """
     helyettesites = szoveg.maketrans(
