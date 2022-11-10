@@ -27,7 +27,7 @@ def main():
     bd = list(range(8)) # Generálja a kezdeti permutációt
     talalat_szama = 0
     proba = 0
-    while talalat_szama < 80:
+    while talalat_szama < 10:
         rng.shuffle(bd)
         proba += 1
         if not van_utkozes(bd):
