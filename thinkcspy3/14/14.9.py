@@ -1,3 +1,5 @@
+# 8 királynő probléma valahány, nem feltétlen különböző megoldása
+
 def ugyanazon_az_atlon(x0, y0, x1, y1):
     """ Az (x0, y0) királynő ugyanazon az átlón van-e (x1, y1) királynővel? """
     dy = abs(y1 - y0) # Kiszámoljuk y távolságának abszolút értékét
