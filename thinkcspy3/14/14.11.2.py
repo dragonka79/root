@@ -1,23 +1,18 @@
-# n = 4, 8, 12, 16 királynő probléma különböző megoldásai 
+# n királynő probléma különböző megoldásai 
 
 # https://en.wikipedia.org/wiki/Eight_queens_puzzle
 
 # n = 4 esetén 2 megoldás
 # n = 8 esetén 92 megoldás
+# n = 9 esetén 352 megoldás ~ 1 perc
+# n = 10 esetén 724 megoldás ~ 8 perc
 # n = 12 esetén 14,200 megoldás
 # n = 16 esetén 14,772,512 megoldás
 
-# n = 4  # Ez változik, amely változtatja r értékét
-# r = 2
+n = 10
+r = 724
 
-n = 8
-r = 92
-
-# n = 12
-# r = 14200
-
-# n = 16
-# r = 14772512
+import time
 
 def ugyanazon_az_atlon(x0, y0, x1, y1):
     """ Az (x0, y0) királynő ugyanazon az átlón van-e (x1, y1) királynővel? """
@@ -60,4 +55,13 @@ def main():
             talalat_szama += 1
     # return talalatok
 
+t0 = time.perf_counter()
 main()
+t1 = time.perf_counter()
+
+td = t1 - t0
+tm = td // 60
+ts = td - (tm * 60)
+print(f"Ez {int(tm)} perc {ts:.4f} másodpercet vett igénybe.")
+
+# print("Ez {0:.4f} másodpercet vett igénybe.".format(t1-t0))
