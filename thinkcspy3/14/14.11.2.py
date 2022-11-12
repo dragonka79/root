@@ -1,5 +1,7 @@
 # n = 4, 8, 12, 16 királynő probléma különböző megoldásai 
 
+# https://en.wikipedia.org/wiki/Eight_queens_puzzle
+
 # n = 4 esetén 2 megoldás
 # n = 8 esetén 92 megoldás
 # n = 12 esetén 14,200 megoldás
