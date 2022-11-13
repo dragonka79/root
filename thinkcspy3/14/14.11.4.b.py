@@ -3,7 +3,7 @@
 def x_tengelyre_tukroz(list):
     revlistx = []
     for i in range(len(list)):
-        k = int(7 - list[i])
+        k = int(len(list) - 1 - list[i])
         revlistx.append(k)
     return revlistx
 
