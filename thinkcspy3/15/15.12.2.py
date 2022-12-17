@@ -5,14 +5,14 @@ class Pont:
         self.x = x
         self.y = y
     
-    def tavolsag(p1, p2):
-        dx = p1.x - p2.x
-        dy = p1.y - p2.y
-        negyzetosszeg = dx*dx + dy*dy
-        eredmeny = negyzetosszeg**0.5
-        return eredmeny
+def tavolsag(p1, p2):
+    dx = p1.x - p2.x
+    dy = p1.y - p2.y
+    negyzetosszeg = dx*dx + dy*dy
+    eredmeny = negyzetosszeg**0.5
+    return eredmeny
 
 p1 = Pont(1, 2)
 p2 = Pont(4, 6)
-d = p1.tavolsag(p2)
+d = tavolsag(p1, p2)
 print(d)
