@@ -2,8 +2,9 @@ import turtle
 import time
 
 a = turtle.Screen()
-# a.bgcolor("lightgreen")
-turtle.screensize(canvwidth=800, canvheight=400, bg="lightgreen")
+a.bgcolor("lightgreen")
+a.setup(width=1.0, height=1.0) # Fullscreen
+# turtle.screensize(canvwidth=800, canvheight=400, bg="lightgreen")
 t = turtle.Turtle()
 t.color("deeppink")
 t.pensize(3)
@@ -23,6 +24,6 @@ def koch(t, rend, meret):
             koch(t, rend-1, meret/3)
             t.left(szog)
 
-koch(t, 4, 8)
+koch(t, 2, 12)
 
 a.mainloop()
