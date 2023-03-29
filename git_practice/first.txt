@@ -1,3 +1,2 @@
 dogs
 cats
-birds
