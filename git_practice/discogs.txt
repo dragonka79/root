@@ -1,1 +1,1 @@
-https://api.discogs.com/artists/108713
+https://api.discogs.com/labels/1/releases?page=2&per_page=25
