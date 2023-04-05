@@ -23,5 +23,4 @@ headers = {
 
 response = requests.request(
     "PUT", url, headers=headers, data=payload, verify=False)
-api_data = response.json()
-pprint(api_data)
+print(response)

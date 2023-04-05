@@ -13,5 +13,4 @@ headers = {
 
 response = requests.request(
     "DELETE", url, headers=headers, data=payload, verify=False)
-api_data = response.json()
-pprint(api_data)
+print(response)
