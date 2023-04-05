@@ -2,7 +2,7 @@ import requests
 import json
 from pprint import pprint
 
-url = "https://sandbox-iosxe-latest-1.cisco.com:443/restconf/data/ietf-interfaces:interfaces/interface=Loopback10"
+url = "https://sandbox-iosxe-latest-1.cisco.com:443/restconf/data/ietf-interfaces:interfaces/interface=Loopback1"
 
 payload = {}
 headers = {
