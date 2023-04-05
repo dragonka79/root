@@ -1,7 +1,8 @@
 import requests
 import json
+from pprint import pprint
 
-url = "https://sandbox-iosxe-latest-1.cisco.com:443/restconf/data/ietf-interfaces:interfaces/interface=Loopback1"
+url = "https://sandbox-iosxe-latest-1.cisco.com:443/restconf/data/ietf-interfaces:interfaces/interface=Loopback10"
 
 payload = {}
 headers = {
@@ -12,5 +13,5 @@ headers = {
 
 response = requests.request(
     "GET", url, headers=headers, data=payload, verify=False)
-
-print(response.text)
+api_data = response.json()
+pprint(api_data)

@@ -1,5 +1,6 @@
 import requests
 import json
+from pprint import pprint
 
 url = "https://sandbox-iosxe-latest-1.cisco.com:443/restconf/data/ietf-interfaces:interfaces"
 
@@ -22,5 +23,5 @@ headers = {
 
 response = requests.request(
     "POST", url, headers=headers, data=payload, verify=False)
-
-print(response.text)
+api_data = response.json()
+pprint(api_data)
