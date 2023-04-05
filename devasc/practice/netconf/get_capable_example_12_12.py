@@ -3,7 +3,8 @@
 
 from ncclient import manager
 
-NXOS_HOST = "131.226.217.149"   # sandbox-iosxe-recomm-1.cisco.com
+# https://devnetsandbox.cisco.com/RM/Diagram/Index/27d9747a-db48-4565-8d44-df318fce37ad?diagramType=Topology
+NXOS_HOST = "131.226.217.149"
 NETCONF_PORT = "830"
 USERNAME = "developer"
 PASSWORD = "lastorangerestoreball8876"
