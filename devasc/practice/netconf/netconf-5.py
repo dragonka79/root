@@ -24,8 +24,7 @@ xmlDom = xml.dom.minidom.parseString(str(interface_netconf))
 print(xmlDom.toprettyxml(indent="  "))
 print('*' * 25 + 'Break' + '*' * 50)
 # XMLTODICT for converting xml output to a python dictionary
-interface_python = xmltodict.parse(interface_netconf.xml)[
-    "rpc-reply"]["data"]
+interface_python = xmltodict.parse(interface_netconf.xml)["rpc-reply"]["data"]
 pprint(interface_python)
 name = interface_python['interfaces']['interface']['name']['#text']
 print(name)
