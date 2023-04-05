@@ -35,4 +35,6 @@ op_state = interface_python["interfaces-state"]["interface"]
 print("Start")
 print(f"Name: {config['name']['#text']}")
 print(f"Description: {config['description']}")
+print(f"Admin-status: {op_state['admin-status']}")
+print(f"Oper-status: {op_state['oper-status']}")
 print(f"Packets In {op_state['statistics']['in-unicast-pkts']}")
