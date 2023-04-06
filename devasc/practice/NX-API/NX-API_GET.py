@@ -24,6 +24,8 @@ headers = {
     'Cookie': 'nxapi_auth=dzqnf:VjCNmVhRFUDkLkNvDo2/UfGvBnw='
 }
 
+# Not a REST API, therefore everything should be POST-ed
+
 response = requests.request(
     "POST", url, headers=headers, data=payload, verify=False)
 

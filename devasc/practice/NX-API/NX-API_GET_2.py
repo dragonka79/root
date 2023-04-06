@@ -1,6 +1,7 @@
 # This is the NX-API_GET equivalent
 # Getting some show commands from NX-API Cisco sandbox
 
+
 import requests
 import json
 import urllib3
@@ -21,7 +22,7 @@ showcmd = {
         "output_format": "json"
     }
 }
-response = requests.post(
+response = requests.post(      # Not a REST API, therefore everything should be POST-ed
     target,
     data=json.dumps(showcmd),
     headers=requestheaders,
