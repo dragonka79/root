@@ -1,4 +1,4 @@
-# This is the NX-API_GET equivalent
+# This is the NX-API_CLI_GET.py equivalent
 # Getting some show commands from NX-API Cisco sandbox
 
 
