@@ -2,7 +2,7 @@ from ncclient import manager
 from router_info import router
 
 config_template = open(
-    "/home/zolcs/git/little_tasks/devasc/practice/netconf/ios_config_port.xml").read()
+    "/home/zolcs/git/little_tasks/devasc/practice/NX-OS/ios_config_port.xml").read()
 
 netconf_config = config_template.format(
     interface_name="GigabitEthernet2", if_value="true")

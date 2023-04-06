@@ -7,7 +7,7 @@ from router_info import router
 # logging.basicConfig(level=logging.DEBUG)
 
 netconf_filter = open(
-    "/home/zolcs/git/little_tasks/devasc/practice/netconf/netconf-filter.xml").read()
+    "/home/zolcs/git/little_tasks/devasc/practice/NX-OS/netconf-filter.xml").read()
 
 with manager.connect(host=router["host"], port=router["port"], username=router["username"], password=router["password"], hostkey_verify=False) as m:
     for capability in m.server_capabilities:
