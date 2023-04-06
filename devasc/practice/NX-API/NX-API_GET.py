@@ -3,6 +3,8 @@
 
 import requests
 import json
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 url = "https://sbx-nxos-mgmt.cisco.com:443/ins"
 
