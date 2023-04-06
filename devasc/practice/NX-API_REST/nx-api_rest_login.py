@@ -1,3 +1,5 @@
+# This is the Postman NX-API REST/NX-API REST_token equivalent
+
 from pprint import pprint
 import requests
 import json
