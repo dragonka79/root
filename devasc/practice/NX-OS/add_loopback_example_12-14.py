@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 """ Add a loopback interface to a device with NETCONF """
 
+# Does not work
+
 from ncclient import manager
 
 NXOS_HOST = "131.226.217.151"  # sbx-nxos-mgmt.cisco.com
