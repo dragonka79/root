@@ -1,7 +1,7 @@
 # This is the Postman NX-API REST/NX-API REST_token and NX-API REST/NX-API REST SET_eth1/35 descr equivalent
 # Getting the token first then modify interface eth1/35 desription
 
-# 1.Getting the token
+########################    1.Getting the token     #######################
 
 from pprint import pprint
 import requests
@@ -36,7 +36,7 @@ print('\n', token, '\n')
 cookies = {}
 cookies['APIC-cookie'] = token
 
-# 2.Modify the description on interface eth1/35
+############    2.Modify the description on interface eth1/35   ########
 
 
 url = "https://sbx-nxos-mgmt.cisco.com:443/api/node/mo/sys/intf/phys-[eth1/35].json?"
