@@ -1,3 +1,5 @@
+# Switches of a port on NX-OS device
+
 from ncclient import manager
 from router_info import router
 
