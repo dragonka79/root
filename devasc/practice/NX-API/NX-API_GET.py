@@ -1,4 +1,5 @@
 # This is the Postman NX-API/NX-API_GET equivalent
+# Getting some show commands from NX-API Cisco sandbox
 
 import requests
 import json
