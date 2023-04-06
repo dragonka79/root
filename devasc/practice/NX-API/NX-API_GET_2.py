@@ -28,6 +28,7 @@ response = requests.post(      # Not a REST API, therefore everything should be 
     headers=requestheaders,
     auth=(username, password),
     verify=False,
-).json()
+).json()   # The reply is converted in a python dict and stored in 'response' var.
 
+# to print the response in a pretty format it is to be converted back to JSON
 print(json.dumps(response, indent=2, sort_keys=True))
