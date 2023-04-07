@@ -49,9 +49,6 @@ for response_net in response_network:
     if response_net['name'] == 'DevNetLab':
         networkId = response_net['id']
 
-
-url = "https://api.meraki.com/api/v1/networks/L_783626335162466320/devices"
-
 org2 = "/networks/"
 dev = "/devices"
 
