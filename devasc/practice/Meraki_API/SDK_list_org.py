@@ -16,6 +16,8 @@ orgs = dashboard.organizations.getOrganizations()
 
 pprint(orgs)
 
+# 2. Getting a network ID by the name of the network
+
 for org in orgs:
     if org['name'] == 'DeLab':
         orgID = org['id']
