@@ -13,4 +13,4 @@ COPY . /app
 ENTRYPOINT ["python3"]
 
 EXPOSE 5000
-CMD [ "flask", "run","--host","0.0.0.0","--port","5000"]
+CMD [ "flask_to_container.py", "run","--host","0.0.0.0","--port","5000"]
