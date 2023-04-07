@@ -58,3 +58,16 @@ response_devices = requests.request(
     "GET", url3, headers=headers, data=payload).json()
 
 print(json.dumps(response_devices, indent=2))
+print("\n")
+
+# 5. Obtain a list of clients in a given network
+
+clients = "/clients/"
+
+url4 = baseURI + org2 + networkId + clients
+
+response_clients = requests.request(
+    "GET", url4, headers=headers, data=payload).json()
+
+print(json.dumps(response_clients, indent=2))
+print("\n")
