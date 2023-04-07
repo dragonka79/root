@@ -1,4 +1,4 @@
-# List the organizations that the user has privileges on
+# 1. List the organizations that the user has privileges on
 
 import meraki
 import json
