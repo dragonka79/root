@@ -2,6 +2,8 @@ FROM ubuntu:20.04
 
 LABEL maintainer="dragonka79 dragonka79@gmail.com"
 
+RUN apt-get update -y && apt-get install -y python3-pip python3-dev
+
 COPY ./requirements.txt /app/requirements.txt
 
 WORKDIR /app
