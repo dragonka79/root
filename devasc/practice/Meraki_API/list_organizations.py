@@ -1,6 +1,7 @@
-# From the code set in Postman under Meraki Dashboard API/list_organizations
+# 1. From the code set in Postman under Meraki Dashboard API/list_organizations
 # + Same cosmetic upgrade for better readability
-# + Getting a Id of an organization from the response
+# 2. + Getting a Id of an organization from the response -> Meraki Dashboard API/list_networks_by_orgid
+# 3. + Getting network on an organization
 
 import json
 import requests
@@ -26,3 +27,17 @@ for response_org in response:
         orgId = response_org['id']
 
 print(orgId)
+
+# 3. List of networks of the orgId
+
+baseURI = "https://api.meraki.com/api/v1/"
+org = "/organizations/"
+orgId_str = str(orgId)
+net = "/networks"
+
+url2 = baseURI + org + orgId + net
+
+response_network = requests.request(
+    "GET", url2, headers=headers, data=payload).json()
+
+print(json.dumps(response_network, indent=2))
