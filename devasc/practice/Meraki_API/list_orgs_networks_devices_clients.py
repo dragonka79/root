@@ -45,8 +45,9 @@ response_network = requests.request(
 
 # 4. Obtain a list of devices in a given network
 
+netname = 'DevNetLab'
 for response_net in response_network:
-    if response_net['name'] == 'DevNetLab':
+    if response_net['name'] == netname:
         networkId = response_net['id']
 
 org2 = "/networks/"
@@ -57,8 +58,10 @@ url3 = baseURI + org2 + networkId + dev
 response_devices = requests.request(
     "GET", url3, headers=headers, data=payload).json()
 
+sep = '#' * 30
+print(f"\n{sep} Devices on {netname} network {sep}\n")
 print(json.dumps(response_devices, indent=2))
-print("\n")
+
 
 # 5. Obtain a list of clients in a given network
 
@@ -69,5 +72,6 @@ url4 = baseURI + org2 + networkId + clients
 response_clients = requests.request(
     "GET", url4, headers=headers, data=payload).json()
 
+print(f"\n{sep} Clients on {netname} network {sep}\n")
 print(json.dumps(response_clients, indent=2))
 print("\n")
