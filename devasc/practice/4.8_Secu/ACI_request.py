@@ -22,7 +22,7 @@ headers = {
 response = requests.request(
     "POST", url, headers=headers, data=json.dumps(payload), verify=False).json()
 
-print(json.dumps(response, indent=2))
+# print(json.dumps(response, indent=2))
 
 ####### Parse token and set cookie ############
 
@@ -37,6 +37,25 @@ url = "https://sandboxapicdc.cisco.com:443/api/node/mo/uni/tn-PAWAN/ap-AP1.json"
 headers = {
     'cache-control': 'no-cache'
 }
+
+get_response = requests.request(
+    "GET", url, headers=headers, cookies=cookie, verify=False).json()
+
+print(json.dumps(get_response, indent=2))
+
+########### Update the description of the AP above #############
+
+post_payload = {
+    "fvAp": {
+        "attributes": {
+            "descr": "dragonka was here",
+            "dn": "uni/tn-PAWAN/ap-AP1"
+        }
+    }
+}
+
+post_response = requests.request(
+    "POST", url, headers=headers, cookies=cookie, verify=False, data=json.dumps(post_payload)).json()
 
 get_response = requests.request(
     "GET", url, headers=headers, cookies=cookie, verify=False).json()
