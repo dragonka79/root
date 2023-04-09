@@ -3,7 +3,7 @@
 import sys
 
 
-def teszt(sikeres_teszt):
+def test(sikeres_teszt):
     """  Egy teszt eredményének megjelenítése.  """
     sorszam = sys._getframe(1).f_lineno   # A hívó sorának száma
     if sikeres_teszt:
