@@ -14,7 +14,7 @@ password = 'Cisco123!'
 response_token = requests.post(
     url_token, auth=(user, password), verify=False).json()
 token = response_token['Token']
-print(token)
+# print(token)
 
 
 url_dev = "https://sandboxdnac2.cisco.com/dna/intent/api/v1/network-device"
