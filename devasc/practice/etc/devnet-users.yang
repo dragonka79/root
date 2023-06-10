@@ -1,0 +1,18 @@
+ module devnet-users {
+
+    namespace "http://devnet.com/devnet-users";
+    prefix users;
+
+    import ietf-yang-types {prefix yang; }
+
+    container users {
+        config true;
+
+        list person {
+            key name;
+            leaf name { type string; }
+            leaf creationdate {type yang:date-and-time; mandatory true;
+            }
+        }
+    }
+ }

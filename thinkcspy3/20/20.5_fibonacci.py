@@ -1,4 +1,4 @@
-# # Fibonacci: rekursion only
+# # Fibonacci: recursion only
 
 # def fib(n):
 #     if n <= 1:
@@ -14,14 +14,15 @@
 # print("fib({0}) = {1}, ({2:.2f} masodperc)".format(n, eredmeny, t1-t0))
 
 
-
 # Fibonacci: rekursion + dictionary
 
 # import sys
 # print(sys.getrecursionlimit()) # Lekérem a rekurzió limitet, ami alapértelmezetten 1000
-# sys.setrecursionlimit(1500)  
+# sys.setrecursionlimit(1500)
 
+import time
 known = {0: 0, 1: 1}
+
 
 def fib(n):
     if n not in known:
@@ -29,10 +30,10 @@ def fib(n):
         known[n] = new_value
     return known[n]
 
+
 print(fib(100))
 print("\t")
 
-import time
 n = 1086  # 1086 utolsó szám amire még lefut az alapértelmezett 1000 rekurzió limittel
 t0 = time.process_time()
 eredmeny = fib(n)

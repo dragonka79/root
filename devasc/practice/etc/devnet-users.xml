@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="devnet-users"
+        xmlns="urn:ietf:params:xml:ns:yang:yin:1"
+        xmlns:users="http://devnet.com/devnet-users">
+  <namespace uri="http://devnet.com/devnet-users"/>
+  <prefix value="users"/>
+  <import module="ietf-yang-types">
+    <prefix value="yang"/>
+  </import>
+  <container name="users">
+    <config value="true"/>
+    <list name="person">
+      <key value="name"/>
+      <leaf name="name">
+        <type name="string"/>
+      </leaf>
+      <leaf name="creationdate">
+        <type name="yang:date-and-time"/>
+        <mandatory value="true"/>
+      </leaf>
+    </list>
+  </container>
+</module>
