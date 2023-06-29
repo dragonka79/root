@@ -1,0 +1,4 @@
+Az első python fájlom!
+--------------------
+Hello világ!
+Negyedik

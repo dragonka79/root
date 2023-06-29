@@ -31,18 +31,19 @@ def fib(n):
     return known[n]
 
 
-print(fib(100))
+l = 50
+print(f" The {l}th fibonacci number is {fib(l)}.")
 print("\t")
 
-n = 1086  # 1086 utolsó szám amire még lefut az alapértelmezett 1000 rekurzió limittel
-t0 = time.process_time()
-eredmeny = fib(n)
-t1 = time.process_time()
-print("fib({0}) = {1}, ({2:.2f} masodperc)".format(n, eredmeny, t1-t0))
-print("\t")
+# n = 1086  # 1086 utolsó szám amire még lefut az alapértelmezett 1000 rekurzió limittel
+# t0 = time.process_time()
+# eredmeny = fib(n)
+# t1 = time.process_time()
+# print("fib({0}) = {1}, ({2:.2f} masodperc)".format(n, eredmeny, t1-t0))
+# print("\t")
 
-count = 0
-eredmeny_string = str(eredmeny)
-for nn in eredmeny_string:
-    count += 1
-print(f"The given fibonacci number has {count} digits.")
+# count = 0
+# eredmeny_string = str(eredmeny)
+# for nn in eredmeny_string:
+#     count += 1
+# print(f"The given fibonacci number has {count} digits.")
