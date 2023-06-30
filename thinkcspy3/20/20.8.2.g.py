@@ -1,6 +1,7 @@
+from teszt import teszt
 import sys
 sys.path.append("C:/Users/A44793837/OneDrive - Deutsche Telekom AG/python/")
-from teszt import teszt
+
 
 def plusz_gyumolcs(keszlet, gyumolcs, mennyiseg=0):
     if gyumolcs in keszlet:
@@ -9,6 +10,7 @@ def plusz_gyumolcs(keszlet, gyumolcs, mennyiseg=0):
         keszlet[gyumolcs] = 0
         keszlet[gyumolcs] += mennyiseg
     return keszlet
+
 
 uj_keszlet = {}
 plusz_gyumolcs(uj_keszlet, "eper", 10)
@@ -22,3 +24,5 @@ plusz_gyumolcs(uj_keszlet, "alma", 5)
 print(uj_keszlet)
 del uj_keszlet["alma"]
 print(uj_keszlet)
+
+# ubun
