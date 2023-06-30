@@ -25,4 +25,4 @@ print(uj_keszlet)
 del uj_keszlet["alma"]
 print(uj_keszlet)
 
-# ubunmin
+# ubunminttt2
