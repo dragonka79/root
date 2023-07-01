@@ -1,0 +1,51 @@
+[
+  {
+    "lat": 37.4180951010362,
+    "lng": -122.098531723022,
+    "address": "",
+    "serial": "Q2QN-Q6EY-NP7J",
+    "mac": "0c:8d:db:b0:c2:dc",
+    "wan1Ip": "192.168.128.102",
+    "wan2Ip": null,
+    "url": "https://n392.meraki.com/DevNetLab-applia/n/xaNlkcig/manage/nodes/new_list/13803415716572",
+    "networkId": "L_783626335162466320",
+    "tags": [],
+    "name": "mx01-dl1",
+    "model": "MX65",
+    "firmware": "wired-17-10-2",
+    "floorPlanId": null
+  },
+  {
+    "lat": 37.4180951010362,
+    "lng": -122.098531723022,
+    "address": "",
+    "serial": "Q2LD-FGN3-VP7S",
+    "mac": "0c:8d:db:b2:77:f8",
+    "lanIp": "192.168.128.7",
+    "url": "https://n392.meraki.com/DevNetLab-wirele/n/61qIJbig/manage/nodes/new_list/13803415828472",
+    "networkId": "L_783626335162466320",
+    "tags": [],
+    "name": "ap01-dl1",
+    "model": "MR52",
+    "firmware": "wireless-29-5-1",
+    "floorPlanId": null
+  },
+  {
+    "lat": 37.4180951010362,
+    "lng": -122.098531723022,
+    "address": "",
+    "serial": "Q2HP-EC87-M9B8",
+    "mac": "e0:55:3d:d0:04:c5",
+    "lanIp": "192.168.128.2",
+    "tags": [
+      "recently-added"
+    ],
+    "url": "https://n392.meraki.com/DevNetLab-switch/n/0Yt-Qbig/manage/nodes/new_list/246656713884869",
+    "networkId": "L_783626335162466320",
+    "name": "ms01-dl1",
+    "model": "MS220-8P",
+    "switchProfileId": null,
+    "firmware": "switch-14-33",
+    "floorPlanId": null
+  }
+]

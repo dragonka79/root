@@ -1,0 +1,139 @@
+[
+  {
+    "id": "L_566327653141843049",
+    "organizationId": "681155",
+    "name": "Lyoli",
+    "productTypes": [
+      "appliance",
+      "camera",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/New_York",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/Lyoli-switch/n/kjwRabg/manage/usage/list",
+    "notes": "",
+    "isBoundToConfigTemplate": false
+  },
+  {
+    "id": "L_566327653141846927",
+    "organizationId": "681155",
+    "name": "Vegas Apartment",
+    "productTypes": [
+      "appliance",
+      "camera",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/Vegas-Apartment-/n/YreSWdg/manage/usage/list",
+    "notes": "",
+    "isBoundToConfigTemplate": false
+  },
+  {
+    "id": "L_566327653141856854",
+    "organizationId": "681155",
+    "name": "DNEAlertsNet",
+    "productTypes": [
+      "appliance",
+      "camera",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/DNEAlertsNet-swi/n/vUktkag/manage/usage/list",
+    "notes": "",
+    "isBoundToConfigTemplate": false
+  },
+  {
+    "id": "L_783626335162466320",
+    "organizationId": "681155",
+    "name": "DevNetLab",
+    "productTypes": [
+      "appliance",
+      "camera",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [
+      "tag1"
+    ],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/DevNetLab-applia/n/xaNlkcig/manage/usage/list",
+    "notes": "",
+    "isBoundToConfigTemplate": false
+  },
+  {
+    "id": "L_783626335162466514",
+    "organizationId": "681155",
+    "name": "DevNetLab2",
+    "productTypes": [
+      "appliance",
+      "cellularGateway",
+      "sensor",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/DevNetLab2-switc/n/selmycig/manage/usage/list",
+    "notes": "",
+    "isBoundToConfigTemplate": false
+  },
+  {
+    "id": "L_783626335162466515",
+    "organizationId": "681155",
+    "name": "DevNetLab3",
+    "productTypes": [
+      "appliance",
+      "cellularGateway",
+      "sensor",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/DevNetLab3-wirel/n/e5u4ibig/manage/usage/list",
+    "notes": null,
+    "isBoundToConfigTemplate": false
+  },
+  {
+    "id": "N_566327653141899127",
+    "organizationId": "681155",
+    "name": "Nolan",
+    "productTypes": [
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/Nolan/n/9qi_yag/manage/usage/list",
+    "notes": "",
+    "isBoundToConfigTemplate": false
+  },
+  {
+    "id": "N_566327653141902646",
+    "organizationId": "681155",
+    "name": "Lyoli MDM",
+    "productTypes": [
+      "systemsManager"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/Lyoli-MDM/n/-JaAJcg/manage/usage/list",
+    "notes": null,
+    "isBoundToConfigTemplate": false
+  }
+]
