@@ -22,14 +22,11 @@ for szo in szavak:
 szavak_lista = list(szavak_szamlalo.items())
 szavak_lista.sort()
 
-k = ' ' * 50
-l = '=' *40
-
-print(f"Szavak{' ' * 76}Száma\t")
-print('=' *85)
+print(f"Szavak{' ' * 73}Száma\t")
+print('=' *84)
 for i in range(len(szavak_lista)):
     print(f"{szavak_lista[i][0]:<40}{' ' * 40}{szavak_lista[i][1]:>4}")
 
 print('\t')
 
-print('Alice {0}-szor szerepel a szövegben'.format(szavak_szamlalo['alice']))
+print('Alice {0}-szor szerepel a szövegben.'.format(szavak_szamlalo['alice']))
