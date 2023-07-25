@@ -23,7 +23,7 @@ szavak_lista = list(szavak_szamlalo.items())
 szavak_lista.sort()
 
 print(f"Szavak{' ' * 73}Száma\t")
-print('=' *84)
+print('=' * 84)
 for i in range(len(szavak_lista)):
     print(f"{szavak_lista[i][0]:<40}{' ' * 40}{szavak_lista[i][1]:>4}")
 
