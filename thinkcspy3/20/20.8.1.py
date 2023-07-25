@@ -12,3 +12,8 @@ betuk.sort()
 for b in betuk:
     if b[0] in ABC:
         print(f"{b[0]}  {b[1]}")
+
+## Full list, including non-existing values
+
+for a in ABC:
+        print(f"{a}   {betu_szamlalo.get(a, 0)}")
