@@ -1,0 +1,2 @@
+Checking connectivity between server and client
+First make the server.py run and then run the client.py
