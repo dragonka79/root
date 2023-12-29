@@ -1,0 +1,1 @@
+Ez egy test file a ex17.py feladathoz.
