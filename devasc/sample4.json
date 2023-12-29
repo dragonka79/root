@@ -1,0 +1,29 @@
+{
+  "people" : [
+    {
+       "firstName": "Joe",
+       "lastName": "Jackson",
+       "gender": "male",
+       "age": 28,
+       "number": "7349282382",
+       "Active": true
+    },
+    {
+       "Name": {"FN": "James", "LN": "Smith"},
+       "gender": "male",
+       "age": 32,
+       "number": "5678568567",
+       "Active": false
+    },
+    {
+       "Name": ["Emily", "Jones"],
+       "lastName": "Jones",
+       "gender": "female",
+       "age": 24,
+       "number": "456754675",
+       "Active": true
+    }
+  ]
+}
+
+
