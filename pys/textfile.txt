@@ -1,0 +1,19 @@
+Hello
+Ez egy próba text file a devasc python-hoz
+Az automatikus file zárás megnyitást követően
+
+Még egy sor
+Még egy sor
+Még egy sor
+
+Még egy sor
+
+Még egy sor
+
+Még egy sor
+
+Még egy sor
+\Még egy sor
+Még egy sorMég egy sorMég egy sor
+Még egy sor
+Még egy sor

@@ -1,0 +1,10 @@
+a 6. sorba teszünk egy töréspontot info,
+Sok hasznos sor-feldolgozó program sorról sorra olvassa be a szöveges állományokat
+eredményt soronként egy kimeneti , info, fájlba írja. A kimeneti fájl sorai sorszámozhatók, 
+vagy minden 60-ik sor után üres Info, sort szúrhatunk be, 
+a papírra történő nyomtatás megkönnyítése végett, vagy csak néhány speciális oszlopát írjuk ki a forrás fájl soraiból 
+vagy csak olyan sorokat íratunk ki, melyek egy bizonyos in fo részsztringet tartalmaznak. Ezt a típusú programot szűrőnek nevezünk.
+Megkülönböztetett működési mód egy számítógépes programon belül.
+Olyan objektum a programunkban, amely egy mögöttes erőforráshoz (például egy fájlhoz) kapcsolódik
+Olyan memória, amely elektromos áramot igényel az állapotának fenntartásához
+Egy olyan kapcsolat, mely lehetővé teszi, hogy információkat olvasson és írjon egy másik számítógépről.

@@ -1,0 +1,5 @@
+A 6. sorba teszünk egy töréspontot,
+Eredményt soronként egy kimeneti fájlba írja. A kimeneti fájl sorai sorszámozhatók, 
+Vagy minden 60-ik sor után üres sort szúrhatunk be, 
+A papírra történő nyomtatás megkönnyítése végett, vagy csak néhány speciális oszlopát írjuk ki a forrás fájl soraiból 
+Vagy csak olyan sorokat íratunk ki, melyek egy bizonyos részsztringet tartalmaznak. Ezt a típusú programot szűrőnek nevezünk.
