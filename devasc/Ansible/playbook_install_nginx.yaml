@@ -1,0 +1,32 @@
+---
+- hosts: linuxhosts
+  become: true
+  gather_facts: false
+  tasks:
+    - name: Install nginx on all linuxhosts
+      apt: name=nginx state=latest
+      # The installation above works on mint, but not on centos, in order to move on
+      # this error is to be ignored:
+      ignore_errors: yes
+      # When it fails on centos, store the failure in a variable:
+      register: var_failure
+
+    - name: Install nginx on centos
+      yum: name=nginx state=latest
+      # Do the nginx installation when the failure happens:
+      # when: var_failure|failed
+- hosts: linuxhosts
+  gather_facts: false
+  tasks:
+    - name: Start nginx service
+      command: "sudo systemctl start nginx"
+- hosts: linuxhosts
+  gather_facts: false
+  tasks:
+    - name: Check nginx status
+      command: "systemctl status nginx"
+      register: "var0"
+    - name: Print the content of "var0" variable
+      debug:
+       msg: "{{var0}}"
+

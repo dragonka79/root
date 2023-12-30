@@ -1,0 +1,9 @@
+---
+- hosts: linuxminthosts
+  tasks:
+    - name: Set the variable for the output of the command below
+      command: "uname -a"
+      register: var
+    - name: Print the content of "var" variable
+      debug:
+        msg: "{{var}}"
