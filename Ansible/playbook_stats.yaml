@@ -1,0 +1,9 @@
+---
+  - name: Git stats and write to desktop
+    hosts: linuxhosts
+    tasks: 
+       - name: get system status and info
+         shell: uname -a > /home/zolcs/Desktop/output_1.txt
+       - name: print my username and uptime and load
+         shell: whoami && uptime >> /home/zolcs/Desktop/output_1.txt
+

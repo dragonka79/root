@@ -1,0 +1,10 @@
+[linuxminthosts]
+mint
+
+[centoshosts]
+centos
+
+[linuxhosts:children]
+linuxminthosts
+centoshosts
+
