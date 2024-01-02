@@ -1,0 +1,14 @@
+---
+- name: Gather facts from devices
+  hosts: nxos
+  gather_facts: yes
+  tasks:
+    - name: Gather device facts
+      ansible.builtin.setup:
+      register: gathered_facts
+
+    - name: Save facts to a file
+      ansible.builtin.copy:
+        content: "{{ gathered_facts | to_nice_json }}"
+        dest: ./nxos_facts.json  
+
