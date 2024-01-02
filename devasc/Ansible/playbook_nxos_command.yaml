@@ -1,0 +1,21 @@
+---
+- name: Gather running configuration from Cisco NX-OS device
+  hosts: nxos
+  # hosts: nxos_gns3_73
+  gather_facts: no
+  connection: network_cli
+  tasks:
+    - name: Run command
+      nxos_command:
+        commands: show version
+      register: command_output
+
+    # - name: Display 'show run' output
+    #   debug:
+    #     var: show_run_output.stdout_lines
+
+    - name: Save output to a file
+      ansible.builtin.copy:
+        content: "{{ command_output | to_nice_json }}"
+        dest: ./comman_output.json  # Replace with the path and filename you prefer
+
