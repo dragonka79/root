@@ -1,0 +1,16 @@
+---
+- name: Using 'cisco.nxos.nxos_interfacesc' module for Cisco NX-OS device
+  hosts: nxos
+  # hosts: nxos_gns3_73
+  gather_facts: no
+  connection: network_cli
+  tasks:
+    - name: Set description
+      cisco.nxos.nxos_interfaces:
+        config: 
+          - name: Eth1/13
+            description: Configured by Ansible by dragonka
+            enabled: true
+        state: merged
+
+
