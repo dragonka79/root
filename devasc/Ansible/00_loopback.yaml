@@ -1,0 +1,41 @@
+---
+
+- name: Configure Loopback Interface
+  hosts: nxosn9k
+  gather_facts: no
+  connection: network_cli
+  tasks:
+    - name: Create Loopback Interface
+      cisco.nxos.nxos_l3_interfaces:
+        config:
+        - name: Lo555
+          ipv4:
+          - address: 5.5.5.5/28
+            secondary: false
+          ipv6_redirects: false
+        state: merged
+
+    - name: Merge provided configuration with device configuration
+      cisco.nxos.nxos_interfaces:
+        config:
+        - name: Lo555
+          description: Configured by Ansible by dragonka
+          enabled: false
+        state: merged
+
+    - name: Purge virtual interfaces from running-config
+      cisco.nxos.nxos_interfaces:
+        config:
+          - name: Lo555
+        state: purged
+ 
+
+- name: Save Running Configuration on Cisco NX-OS
+  hosts:  nxos_gns3_73 
+  gather_facts: no
+  tasks:
+    - name: Save Running Configuration
+      nxos_config:
+        commands:
+          - copy running-config startup-config
+      
