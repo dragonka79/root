@@ -1,0 +1,25 @@
+---
+- name: Using 'nxos_command' module in my homelab
+  hosts: nxosn9k
+  gather_facts: no
+  connection: network_cli
+  tasks:
+    - name: Define the command
+      set_fact:
+        command_to_execute: "show ip int br"
+
+    - name: Run the command
+      nxos_command:
+        commands: "{{ command_to_execute }}"
+      register: command_output
+
+    # - name: Display output
+    #   debug:
+    #     var: command_output.stdout_lines
+
+    - name: Save command output to a file
+      ansible.builtin.copy:
+        content: "{{ command_output | to_nice_json }}"
+        dest: ./{{ inventory_hostname }}_{{ command_to_execute.replace(' ', '_') }}_output.json 
+
+
