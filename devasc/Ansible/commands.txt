@@ -22,3 +22,22 @@ ansible all -b -a 'whoami'
 # Run a playbook
 ansible-playbook playbook_stats.yaml
 
+# What facts actually checks on all host in inventory + redirecting the output to a .txt file
+ansible linuxhosts -m setup > /home/zolcs/Desktop/facts.txt
+
+# Filtering out the facts
+ansible linuxhosts -m setup -a "filter=*ansible_os_family"
+
+# Ansible shell command with debug
+ANSIBLE_DEBUG=1 ansible ciscosandbox -m setup > /home/zolcs/Desktop/facts.txt -u "admin" -k
+
+# Check the content of an encrypted vault file
+ansible-vault view ./credentials.yml
+
+# Edit the encrypted vault file
+ansible-vault edit ./credentials.yml
+
+# Change the password of the encrypted vault file
+ansible-vault rekey ./credentials.yml
+
+ansible nxos -m setup > /home/zolcs/Desktop/facts.txt -u "admin" -k
