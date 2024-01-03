@@ -7,8 +7,11 @@
       ansible.builtin.setup:
       register: gathered_facts
 
+    # - name: Display gathered facts on the screen
+    #   debug:
+    #     var: ansible_facts
+
     - name: Save facts to a file
       ansible.builtin.copy:
         content: "{{ gathered_facts | to_nice_json }}"
-        # dest: ./nxos_facts.json  # Replace with the path and filename you prefer
-        dest: ./{{ inventory_hostname }}_facts_output.json  # Replace with the path and filename you prefer
+        dest: ./{{ inventory_hostname }}_facts_output.json  
