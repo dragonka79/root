@@ -1,6 +1,6 @@
 from teszt import teszt
 import sys
-sys.path.append("C:/Users/A44793837/OneDrive - Deutsche Telekom AG/python/")
+sys.path.append("C:/python/")
 
 
 def plusz_gyumolcs(keszlet, gyumolcs, mennyiseg=0):
