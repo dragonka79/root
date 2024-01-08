@@ -10,7 +10,7 @@ def irasjel_eltavolitas(szoveg):
     return irasjel_nelkuli
 
 
-with open("C:/Users/A44793837/OneDrive - Deutsche Telekom AG/python/20/alice_in_wonderland.txt") as open_text:
+with open("C:/python/20/alice_in_wonderland.txt") as open_text:
     lower_text = open_text.read().lower()
 
 szavak = irasjel_eltavolitas(lower_text).split()
