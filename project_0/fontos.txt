@@ -1,0 +1,2 @@
+ - ha napalmon keresztül kapcsolódok olyan eszközökhöz,amik netconfot használnak,
+ akkor az xml átfordítással nem kell foglalkozni, napalm lekezeli

@@ -1,0 +1,4 @@
+vmanage_host = '10.10.20.90'
+vmanage_port = '443'
+vmanage_username = 'admin'
+vmanage_password = 'C1sco12345'

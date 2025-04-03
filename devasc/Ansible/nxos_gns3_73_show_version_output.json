@@ -1,0 +1,48 @@
+{
+    "changed": false,
+    "failed": false,
+    "stdout": [
+        "Cisco Nexus Operating System (NX-OS) Software\nTAC support: http://www.cisco.com/tac\nDocuments: http://www.cisco.com/en/US/products/ps9372/tsd_products_support_series_home.html\nCopyright (c) 2002-2016, Cisco Systems, Inc. All rights reserved.\nThe copyrights to certain works contained herein are owned by\nother third parties and are used and distributed under license.\nSome parts of this software are covered under the GNU Public\nLicense. A copy of the license is available at\nhttp://www.gnu.org/licenses/gpl.html.\n\nNX-OSv is a demo version of the Nexus Operating System\n\nSoftware\n  loader:    version N/A\n  kickstart: version 7.3(0)D1(1)\n  system:    version 7.3(0)D1(1)\n  kickstart image file is: bootflash:///titanium-d1-kickstart.7.3.0.D1.1.bin\n  kickstart compile time:  1/11/2016 16:00:00 [02/11/2016 10:30:12]\n  system image file is:    bootflash:///titanium-d1.7.3.0.D1.1.bin\n  system compile time:     1/11/2016 16:00:00 [02/11/2016 13:08:11]\n\n\nHardware\n  cisco NX-OSv Chassis (\"NX-OSv Supervisor Module\")\n  QEMU Virtual CPU version 2.5 with 3064740 kB of memory.\n  Processor Board ID TMC9400000B\n\n  Device name: nxos_gns3\n  bootflash:    3184776 kB\n\nKernel uptime is 0 day(s), 7 hour(s), 11 minute(s), 47 second(s)\n\n\nplugin\n  Core Plugin, Ethernet Plugin\n\nActive Package(s)"
+    ],
+    "stdout_lines": [
+        [
+            "Cisco Nexus Operating System (NX-OS) Software",
+            "TAC support: http://www.cisco.com/tac",
+            "Documents: http://www.cisco.com/en/US/products/ps9372/tsd_products_support_series_home.html",
+            "Copyright (c) 2002-2016, Cisco Systems, Inc. All rights reserved.",
+            "The copyrights to certain works contained herein are owned by",
+            "other third parties and are used and distributed under license.",
+            "Some parts of this software are covered under the GNU Public",
+            "License. A copy of the license is available at",
+            "http://www.gnu.org/licenses/gpl.html.",
+            "",
+            "NX-OSv is a demo version of the Nexus Operating System",
+            "",
+            "Software",
+            "  loader:    version N/A",
+            "  kickstart: version 7.3(0)D1(1)",
+            "  system:    version 7.3(0)D1(1)",
+            "  kickstart image file is: bootflash:///titanium-d1-kickstart.7.3.0.D1.1.bin",
+            "  kickstart compile time:  1/11/2016 16:00:00 [02/11/2016 10:30:12]",
+            "  system image file is:    bootflash:///titanium-d1.7.3.0.D1.1.bin",
+            "  system compile time:     1/11/2016 16:00:00 [02/11/2016 13:08:11]",
+            "",
+            "",
+            "Hardware",
+            "  cisco NX-OSv Chassis (\"NX-OSv Supervisor Module\")",
+            "  QEMU Virtual CPU version 2.5 with 3064740 kB of memory.",
+            "  Processor Board ID TMC9400000B",
+            "",
+            "  Device name: nxos_gns3",
+            "  bootflash:    3184776 kB",
+            "",
+            "Kernel uptime is 0 day(s), 7 hour(s), 11 minute(s), 47 second(s)",
+            "",
+            "",
+            "plugin",
+            "  Core Plugin, Ethernet Plugin",
+            "",
+            "Active Package(s)"
+        ]
+    ]
+}

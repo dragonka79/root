@@ -1,0 +1,1107 @@
+[
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "573083052582915264",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "Thisisaneworg",
+    "url": "https://n18.meraki.com/o/iui3abs/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": false
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396582755",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Your Organization",
+    "url": "https://n22.meraki.com/o/LwDcydw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396582986",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "DevNet Test Org",
+    "url": "https://n22.meraki.com/o/yZVJIcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396582591",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "My Org",
+    "url": "https://n22.meraki.com/o/Kpj8kdw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583158",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "abcdefg",
+    "url": "https://n22.meraki.com/o/AvGDGdw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584362",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "PM_Test",
+    "url": "https://n22.meraki.com/o/bC9afaw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "681155",
+    "licensing": {
+      "model": "per-device"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "DeLab",
+    "url": "https://n392.meraki.com/o/49Gm_c/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "566327653141842188",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "DevNetAssoc",
+    "url": "https://n6.meraki.com/o/dcGsWag/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "463308",
+    "licensing": {
+      "model": "per-device"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Hi Cory",
+    "url": "https://n18.meraki.com/o/vB2D8a/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "573083052582914233",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "organization with name changed",
+    "url": "https://n18.meraki.com/o/TY6awbs/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "573083052582914605",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Jacks_test_net",
+    "url": "https://n18.meraki.com/o/22Uqhas/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "573083052582915028",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "New Meraki Org",
+    "url": "https://n18.meraki.com/o/PoiDucs/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "573083052582915143",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "My organization - clone",
+    "url": "https://n18.meraki.com/o/DoKLMcs/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "573083052582915144",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "My organization",
+    "url": "https://n18.meraki.com/o/s-lddas/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "52636",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Forest City - Other",
+    "url": "https://n42.meraki.com/o/E_utnd/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "573083052582915270",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "My organization",
+    "url": "https://n18.meraki.com/o/lN5zCas/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584295",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "My organization - test",
+    "url": "https://n22.meraki.com/o/hs4xOdw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584384",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/Qh4mlcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": false
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584365",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "1234567"
+        }
+      ]
+    },
+    "name": "Test Ansible",
+    "url": "https://n22.meraki.com/o/pHz-Sdw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396582756",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Personal.Lekhnath",
+    "url": "https://n22.meraki.com/o/HjSXiaw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583128",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "gk",
+    "url": "https://n22.meraki.com/o/XjvDBcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583708",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "helloworld",
+    "url": "https://n22.meraki.com/o/hC66edw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584364",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "PM_Test",
+    "url": "https://n22.meraki.com/o/HFyNGaw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "865776",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "MARYDALKO_HOME",
+    "url": "https://n22.meraki.com/o/CVQqTb/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584390",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Test",
+    "url": "https://n22.meraki.com/o/PC2bwcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583133",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "MARYDALKO_HOME",
+    "url": "https://n22.meraki.com/o/NBowlcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584266",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Wild Willys Org",
+    "url": "https://n22.meraki.com/o/h6qxSbw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584256",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Wils Test Creation",
+    "url": "https://n22.meraki.com/o/zixezcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584349",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "My Test Org 2",
+    "url": "https://n22.meraki.com/o/C8SEXaw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584427",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "681155",
+    "url": "https://n22.meraki.com/o/deDyQcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584347",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "SDTestOrg",
+    "url": "https://n22.meraki.com/o/xNRSPcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584391",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Test55",
+    "url": "https://n22.meraki.com/o/y7SiLcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584363",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "PM_Test",
+    "url": "https://n22.meraki.com/o/sFPricw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584389",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Test",
+    "url": "https://n22.meraki.com/o/ebdrybw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584385",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/CI7lybw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583197",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Sample Org",
+    "url": "https://n22.meraki.com/o/wXe-Faw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": false
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583213",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "sample_network",
+    "url": "https://n22.meraki.com/o/IJQKjbw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583031",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/N1e3qdw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396582973",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "DevNet Test Org",
+    "url": "https://n22.meraki.com/o/4ApTKbw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583536",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "TNF - The Network Factory",
+    "url": "https://n22.meraki.com/o/K5Faybw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583131",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "thienbao",
+    "url": "https://n22.meraki.com/o/dADP-cw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396582684",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "SVR",
+    "url": "https://n22.meraki.com/o/rMNradw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584361",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "PM_Test",
+    "url": "https://n22.meraki.com/o/7Yt2jaw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583071",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "12345678"
+        }
+      ]
+    },
+    "name": "PM_Test",
+    "url": "https://n22.meraki.com/o/lUmuUdw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583819",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "MARYDALKO_HOME",
+    "url": "https://n22.meraki.com/o/TDt5Jcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584371",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": [
+        {
+          "name": "MSP ID",
+          "value": "123456"
+        }
+      ]
+    },
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/H3KChbw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583264",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "DevRelations",
+    "url": "https://n22.meraki.com/o/aLMnNaw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583051",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Hi Cory",
+    "url": "https://n22.meraki.com/o/4lFkacw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584260",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "GGTEST_MyOrg1",
+    "url": "https://n22.meraki.com/o/hU0pDaw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583093",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "DevRelx23",
+    "url": "https://n22.meraki.com/o/yotmJcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396582738",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/wzbgjbw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583237",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "changetest",
+    "url": "https://n22.meraki.com/o/ZF92zcw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584306",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "A Best",
+    "url": "https://n22.meraki.com/o/GOeRmdw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396583134",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Wotan",
+    "url": "https://n22.meraki.com/o/U3paXbw/manage/organization/overview"
+  },
+  {
+    "api": {
+      "enabled": true
+    },
+    "cloud": {
+      "region": {
+        "name": "North America"
+      }
+    },
+    "id": "575334852396584315",
+    "licensing": {
+      "model": "co-term"
+    },
+    "management": {
+      "details": []
+    },
+    "name": "Test 1",
+    "url": "https://n22.meraki.com/o/AzTrDcw/manage/organization/overview"
+  }
+]

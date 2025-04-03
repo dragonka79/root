@@ -1,0 +1,10 @@
+0001 1.a 6. sorba teszünk egy töréspontot info,
+0002 #2.Sok hasznos sor-feldolgozó program sorról sorra olvassa be a szöveges állományokat
+0003 3.eredményt soronként egy kimeneti , info, fájlba írja. A kimeneti fájl sorai sorszámozhatók, 
+0004 4.vagy minden 60-ik sor után üres Info, sort szúrhatunk be, 
+0005 5.a papírra történő nyomtatás megkönnyítése végett, vagy csak néhány speciális oszlopát írjuk ki a forrás fájl soraiból 
+0006 6.vagy csak olyan sorokat íratunk ki, melyek egy bizonyos in fo részsztringet tartalmaznak. Ezt a típusú programot szűrőnek nevezünk.
+0007 7. Megkülönböztetett működési mód egy számítógépes programon belül.
+0008 8. Olyan objektum a programunkban, amely egy mögöttes erőforráshoz (például egy fájlhoz) kapcsolódik
+0009 9. Olyan memória, amely elektromos áramot igényel az állapotának fenntartásához
+0010 10.Egy olyan kapcsolat, mely lehetővé teszi, hogy információkat olvasson és írjon egy másik számítógépről.

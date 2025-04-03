@@ -1,0 +1,11 @@
+<books>
+    <science>
+        <biology>10.00</biology>
+        <geology>9.00</geology>
+        <chemistry>8.00</chemistry>
+    </science>
+    <math>
+        <calculus>20.00</calculus>
+        <algebra>12.00</algebra>
+    </math>
+</books>

@@ -1,0 +1,48 @@
+{
+    "changed": false,
+    "failed": false,
+    "stdout": [
+        "Cisco Nexus Operating System (NX-OS) Software\nTAC support: http://www.cisco.com/tac\nDocuments: http://www.cisco.com/en/US/products/ps9372/tsd_products_support_series_home.html\nCopyright (c) 2002-2023, Cisco Systems, Inc. All rights reserved.\nThe copyrights to certain works contained herein are owned by\nother third parties and are used and distributed under license.\nSome parts of this software are covered under the GNU Public\nLicense. A copy of the license is available at\nhttp://www.gnu.org/licenses/gpl.html.\n\nNexus 9000v is a demo version of the Nexus Operating System\n\nSoftware\n  BIOS: version \n  NXOS: version 10.3(3) [Feature Release]\n  BIOS compile time:  \n  NXOS image file is: bootflash:///nxos64-cs.10.3.3.F.bin\n  NXOS compile time:  4/30/2023 12:00:00 [05/03/2023 20:18:42]\n\nHardware\n  cisco Nexus9000 C9300v Chassis \n  Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz with 16384716 kB of memory.\n  Processor Board ID 9K1C72YEFLR\n  Device name: sbx-ao\n  bootflash:    4287040 kB\n\nKernel uptime is 33 day(s), 23 hour(s), 29 minute(s), 7 second(s)\n\nLast reset \n  Reason: Unknown\n  System version: \n  Service: \n\nplugin\n  Core Plugin, Ethernet Plugin\n\nActive Package(s):"
+    ],
+    "stdout_lines": [
+        [
+            "Cisco Nexus Operating System (NX-OS) Software",
+            "TAC support: http://www.cisco.com/tac",
+            "Documents: http://www.cisco.com/en/US/products/ps9372/tsd_products_support_series_home.html",
+            "Copyright (c) 2002-2023, Cisco Systems, Inc. All rights reserved.",
+            "The copyrights to certain works contained herein are owned by",
+            "other third parties and are used and distributed under license.",
+            "Some parts of this software are covered under the GNU Public",
+            "License. A copy of the license is available at",
+            "http://www.gnu.org/licenses/gpl.html.",
+            "",
+            "Nexus 9000v is a demo version of the Nexus Operating System",
+            "",
+            "Software",
+            "  BIOS: version ",
+            "  NXOS: version 10.3(3) [Feature Release]",
+            "  BIOS compile time:  ",
+            "  NXOS image file is: bootflash:///nxos64-cs.10.3.3.F.bin",
+            "  NXOS compile time:  4/30/2023 12:00:00 [05/03/2023 20:18:42]",
+            "",
+            "Hardware",
+            "  cisco Nexus9000 C9300v Chassis ",
+            "  Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz with 16384716 kB of memory.",
+            "  Processor Board ID 9K1C72YEFLR",
+            "  Device name: sbx-ao",
+            "  bootflash:    4287040 kB",
+            "",
+            "Kernel uptime is 33 day(s), 23 hour(s), 29 minute(s), 7 second(s)",
+            "",
+            "Last reset ",
+            "  Reason: Unknown",
+            "  System version: ",
+            "  Service: ",
+            "",
+            "plugin",
+            "  Core Plugin, Ethernet Plugin",
+            "",
+            "Active Package(s):"
+        ]
+    ]
+}

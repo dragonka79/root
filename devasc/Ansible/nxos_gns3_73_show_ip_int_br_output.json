@@ -1,0 +1,14 @@
+{
+    "changed": false,
+    "failed": false,
+    "stdout": [
+        "IP Interface Status for VRF \"default\"(1)\nInterface            IP Address      Interface Status\nEth2/1               172.16.218.1    protocol-up/link-up/admin-up"
+    ],
+    "stdout_lines": [
+        [
+            "IP Interface Status for VRF \"default\"(1)",
+            "Interface            IP Address      Interface Status",
+            "Eth2/1               172.16.218.1    protocol-up/link-up/admin-up"
+        ]
+    ]
+}

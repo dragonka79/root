@@ -1,0 +1,21 @@
+{
+    "changed": false,
+    "failed": false,
+    "stdout": [
+        "!Command: show running-config interface loopback555\n!Time: Wed Jan  3 18:45:41 2024\n\nversion 7.3(0)D1(1)\n\ninterface loopback555\n  description Configured by Ansible by dragonka\n  shutdown\n  ip address 5.5.5.5/28\n  no ipv6 redirects"
+    ],
+    "stdout_lines": [
+        [
+            "!Command: show running-config interface loopback555",
+            "!Time: Wed Jan  3 18:45:41 2024",
+            "",
+            "version 7.3(0)D1(1)",
+            "",
+            "interface loopback555",
+            "  description Configured by Ansible by dragonka",
+            "  shutdown",
+            "  ip address 5.5.5.5/28",
+            "  no ipv6 redirects"
+        ]
+    ]
+}

@@ -1,0 +1,1 @@
+print("ananász" < "Barack")

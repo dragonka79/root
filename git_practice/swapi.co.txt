@@ -1,0 +1,4 @@
+
+# Run it by ctrl + alt +r; REST client extension is needed
+
+https://swapi.dev/api/people/1/

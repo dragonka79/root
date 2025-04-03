@@ -1,0 +1,3 @@
+csirkék = 15
+kacsák = 13
+gyöngytyúkok = 9
